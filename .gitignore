@@ -1,0 +1,32 @@
+# Build artifacts
+backend/build/
+backend/bin/
+backend/*.exe
+backend/build*/
+*.exe
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+frontend/dist/
+package-lock.json
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
